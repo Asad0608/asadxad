@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: url("../img/istockphoto-1311980207-170667a.jpg") no-repeat center center/cover;
+}
+.container{
+    width: 400px;
+    margin-top: 200px;
+    height: 60vh;
+}
+.row{
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+.btn{
+    width: 90px;
+    height: 90px;
+    color: white;
+    border:none;
+    border-radius:50%;
+    font-size: 20px;
+}
+h1{
+    color: aqua;
+    font-size: 45px;
+    font-style: italic ;
+    animation-name: animation-h1;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-duration: 2s;
+}
+/*@keyframes animation-h1 {*/
+/*    50%{*/
+/*        transform: scale(1.1);*/
+/*    }*/
+/*    */
+/*}*/
